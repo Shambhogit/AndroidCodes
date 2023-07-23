@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string name="login">LOGIN</string>
+    <string name="email">EMAIL</string>
+    <string name="pass">PASSWORD</string>
+    <string name="hint">xyz@gmail.com</string>
+    <string name="hint1">enter password here</string>
+    <string name="forget">FORGOT PASSWORD?</string>
+
+</resources>

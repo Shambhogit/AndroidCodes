@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Table Layout"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:background="#002984"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:text="Name : shambho Jaybhaye\nRoll No : 41\nMarks : 55%"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="#FF0000"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Name : Mandar    Pandagale\nRoll No : 39\nMarks : 94.89%"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="#FF6200"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:text="Name : Prathamesh kshirsagar\nRoll No : 24\nMarks : 91.89%"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#7B47Bc"
+                android:text="Name : ganesh\nRoll No : 44\nMarks : 90.89%"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

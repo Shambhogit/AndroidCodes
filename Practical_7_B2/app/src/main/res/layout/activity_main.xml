@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/black"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtName"
+        android:layout_height="50dp"
+        android:hint="@string/name"
+        android:autofillHints="name"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtNumber"
+        android:hint="@string/no"
+        android:autofillHints="phone"
+        android:inputType="phone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtMarks"
+        android:hint="@string/marks"
+        android:autofillHints="marks"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtBranch"
+        android:hint="@string/branch"
+        android:autofillHints="branch"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:text="submit"
+        />
+
+</LinearLayout>

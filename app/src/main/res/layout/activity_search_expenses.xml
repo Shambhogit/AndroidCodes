@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back_grediant"
+    android:orientation="vertical"
+    tools:context=".SearchExpenses">
+
+    <TextView
+        android:id="@+id/edtSelectDate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:text="Click to Select date"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:autofillHints="null"/>
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/dpDate"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvSearch"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practical_7_B</string>
+    <string name="info">Enter Your\nInformation</string>
+    <string name="name">Enter your name</string>
+    <string name="no">Enter Your Number</string>
+    <string name="marks">Enter Your Marks</string>
+    <string name="branch">Enter Your Branch</string>
+
+    <string name="showInfo">Information</string>
+    <string name="showName">Name :</string>
+    <string name="showNumber">Numbers :</string>
+    <string name="showMarks">Marks :</string>
+    <string name="showBranch">Branch :</string>
+</resources>

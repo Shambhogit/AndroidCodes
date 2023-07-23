@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">firstapp</string>
+    <string name="send_message">send</string>
+    <string name="receive_message">send</string>
+    <string name="read_message">send</string>
+    <string name="ex_message">send</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Monthly Expenses</string>
+    <string name="welcome">Welcome</string>
+    <string name="uid">User ID</string>
+    <string name="password">Password</string>
+    <string name="create">Create Account</string>
+    <string name="signIn">sign in</string>
+    <string name="signUp">sign up</string>
+    <string name="submit">Submit</string>
+    <string name="clare">clear</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+
+    <string name="add">Add Expense</string>
+    <string name="show">Show All Expenses</string>
+    <string name="delete">Delete Expense</string>
+    <string name="search">Search Expenses</string>
+
+
+    <string name="data">1.This app helps you to keep track of all expenses\n2.Monthly analysis of Income and Expense\n3.It is very easy to user and user friendly app</string>
+</resources>

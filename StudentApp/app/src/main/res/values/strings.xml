@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="name">card_name</string>
+    <string name="insert">Insert\nData Student</string>
+</resources>

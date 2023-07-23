@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ShowInfo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showInfo"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginTop="50dp"
+        android:text="@string/showName"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/number"
+    android:layout_marginTop="20dp"
+    android:text="@string/showNumber"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textAlignment="center"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="@string/showMarks"
+    android:id="@+id/marks"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/branch"
+        android:layout_marginTop="20dp"
+        android:text="@string/showBranch"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+</LinearLayout>

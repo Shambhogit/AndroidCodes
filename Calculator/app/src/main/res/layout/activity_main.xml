@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@drawable/border"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/custom_button_gray"
+            android:text="@string/ac"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/custom_button_gray"
+            android:text="@string/pm"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/custom_button_gray"
+            android:text="@string/perc"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/custom_button_org"
+            android:text="@string/div"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/seven"
+            android:textColor="@color/white"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/eight"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/nine"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/custom_button_org"
+            android:text="@string/mul"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/four"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/five"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/six"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/custom_button_org"
+            android:text="@string/min"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/one"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/two"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/three"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/custom_button_org"
+            android:text="@string/plus"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="173dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/zero"
+            android:textColor="@color/white"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cutom_button_gray2"
+            android:text="@string/point"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="13dp"
+            android:textSize="23sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_org"
+            android:text="@string/equal"
+            android:layout_marginStart="13dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
